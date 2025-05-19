@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class ListaTarefas {
-    Set<Tarefa> tarefaSet;
+    private Set<Tarefa> tarefaSet;
 
     public ListaTarefas() {
         this.tarefaSet = new HashSet<>();
